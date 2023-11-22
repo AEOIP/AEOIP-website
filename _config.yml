@@ -57,7 +57,7 @@ plugins:
 
 repository: aeoip/aeoip-website
 author:
-  name   : "AEOIP"
+  # name   : "AEOIP"
   avatar : "/assets/images/nasa-meatball.png"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
