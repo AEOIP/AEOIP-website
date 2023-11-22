@@ -40,13 +40,13 @@ include:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
 
 # Plugins (previously gems:)
 plugins:
@@ -63,30 +63,24 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
-    - label: "Website"
+    - label: "NASA Earth Science Division"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://science.nasa.gov/earth-science/"
+    - label: "U.S. Forest Service"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.fs.usda.gov/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/aeoip/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/aeoip/"
+    # - label: "NASA Earth Science Division" #and one for USFS if i figure it out
+    #   icon: "" # need to figure out path to saving this icon.
+    #   url: "https://science.nasa.gov/earth-science/"
 
 defaults:
   # _posts
