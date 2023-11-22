@@ -57,6 +57,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+repository: aeoip/aeoip-website
 author:
   name   : "First Lastname"
   avatar : "/assets/images/bio-photo.jpg"
@@ -106,6 +107,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+
 
 category_archive:
   type: liquid
